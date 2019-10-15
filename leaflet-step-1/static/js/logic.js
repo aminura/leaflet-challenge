@@ -41,8 +41,8 @@ function getColor(d) {
                     '#33ff00';
 };
 
-//USGS url for all earthquakes from the last 7 days
-var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+//USGS url for significant earthquakes
+var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_hour.geojson"
 
 //Create a layer for the circle group
 var circlesLayer = L.layerGroup();
